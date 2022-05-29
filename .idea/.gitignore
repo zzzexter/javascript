@@ -4,3 +4,6 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 .idea
+
+$ git config --global user.name "Stepan"
+$ git config --global user.email cholakstepan@gmail.com
