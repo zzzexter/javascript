@@ -46,9 +46,79 @@
 
 // fruits.unshift('Яблоко');
 
-let fruits = ['Яблоко'];
+// let fruits = ['Яблоко'];
 
-fruits.push('Апельсин','Груша');
-fruits.unshift('Ананас','Лимон');
+// fruits.push('Апельсин','Груша');
+// fruits.unshift('Ананас','Лимон');
 
-console.log(fruits);
+// console.log(fruits);
+
+// let fruits = ['Банан'];
+
+// let arr = fruits;
+
+// console.log(arr === fruits); // true
+
+// arr.push('Груша');
+
+// console.log(fruits) // Банан, Груша
+
+// let auto = [];
+
+// auto[999999] = 5;
+
+// auto.age = 25;
+
+// let auto = ['БМВ', 'Ауди', 'Опель'];
+
+// for(let i = 0; i < auto.length; i++) {
+//     console.log(auto[i]);
+// }
+
+// let fruits = ['Яблоко', 'Апельсин', 'Груша'];
+
+// for(let fruit of fruits) {
+//     console.log(fruit);
+// }
+
+// for(let key in fruits) {
+//     console.log(key);
+// }
+
+// let fruits = [];
+// fruits[123] = 'Яблоко';
+
+// console.log(fruits.length);
+
+// let arr = [1,2,3,4,5];
+// console.log(arr);
+// arr.length = 2;
+// console.log(arr); // 1, 2
+
+// arr.length = 5; // возвращаем как было
+// console.log(arr[3]); // значения не восстановились
+
+// let arr = new Array('Яблоко', 'Груша','Слива')
+
+// let matrix = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ];
+
+// console.log(matrix[1][1]);
+
+// let arr = [1,2,3];
+
+// console.log(arr); // 1,2,3
+// console.log(String(arr) === '1,2,3'); // true
+
+// console.log([] + 1); // '1'
+// console.log([1] + 1); // '11'
+// console.log([1,2] + 1); // '1,21'
+
+console.log([] == []); // false
+console.log([0] == [0]); // false
+
+console.log( 0 == []); // true
+console.log( '0' == []); // false
